@@ -127,6 +127,6 @@ def kUniversalCircular(k):
 
 # Test
 start = timeit.default_timer()
-print(kUniversalCircular(20))
+print(kUniversalCircular(10))
 eclipsed = timeit.default_timer() - start
 print(f'Time for function: {eclipsed} seconds.')
